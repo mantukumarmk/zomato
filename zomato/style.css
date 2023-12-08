@@ -1,0 +1,223 @@
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    margin: 0;
+    width: 100%;
+    /* background-color: aqua; */
+}
+.container{
+    width: 85%;
+    margin: auto;
+    /* background-color: red; */
+}
+.header{
+    position: relative;
+}
+.image-container{
+    position: relative;
+    width: 100%;
+    height: 420px;
+    overflow: hidden;
+}
+.image-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1.1);
+}
+.header-body-section{
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    color: aliceblue;
+}
+.nav{
+    font-weight: 550;
+    height: 50px;
+}
+.container-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logocontainer{
+    display: flex;
+    align-items: center;
+}
+.logocontainer p{
+    padding: 5px;
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+
+}
+.nav ul li{
+    padding: 0px 3px;
+    margin-right: 25px;
+    font-size:20px ;
+    font-weight: 100;
+}
+.nav ul li a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.zomato-logo{
+    width: 300px;
+
+}
+.container-header-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 420px;
+    /* background-color: red; */
+    flex-direction: column;
+
+
+}
+.header-body-content{
+    position: relative;
+    top: -50px;
+}
+.header-body-section-discover{
+    font-size: 40px;
+    margin: 25px 0px;
+}
+.search-container{
+    background-color: aliceblue;
+    width: 100%;
+    height: 55px;
+    max-width: 750px;
+    border-radius: 10px;display: flex;
+    align-items: center;
+    padding: 7px;
+    /* background-color: red; */
+    color:black;
+}
+.location-map{
+    color:rgb(233, 112, 112);
+    font-size: 25px;
+
+}
+.angle-down{
+    color: black;
+}
+.detectionlocation input{
+    border: none;
+    font-size: 16px;
+    width: 190px;
+}
+.search-iteam{
+    color:black;
+    font-size: 18px;
+}
+.line{
+    padding: 7px;
+}
+.search-iteam input{
+    
+    max-width:100%;
+    width: 400px;
+    font-size: 15px;
+    border: none;
+    padding: 5px 10px;
+
+}
+.sction-1{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.container-feature{
+    display: flex;
+    justify-content: space-between;
+
+}
+.features{
+    overflow: hidden;
+    border-radius: 20px;
+    border: 0.1px solid gray;
+    
+}
+.feature-image{
+    width: 360px;
+    height: 200px;
+    overflow: hidden;
+
+}
+.feature-image img{
+    width: 100%;
+
+}
+.features h3,
+.features p{
+    padding-left: 20px;
+}
+.features:hover{
+    transition: transform 0.7s;
+    transform:scale(1.05);
+    cursor: pointer;
+}
+
+.section-2{
+    padding: 15px 0px;
+}
+.section-2-left h1{
+font-size: 40px;
+margin-bottom: 0;
+
+}
+.section-2-left p{
+    font-size: 20px;
+    margin-top: 0;
+    letter-spacing: 1px;
+    font-weight: 200;
+    
+    }
+    .section-2-top{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .section-2-right{
+        align-self: flex-end;
+        color: red;
+
+    }
+    .section-2-iteam{
+        max-width: 267px;
+        height: 320px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0);
+        border-radius: 5px;
+        overflow: hidden;
+        position: relative;
+        margin: 3rem;
+        
+    }
+    .section-2-iteam img{
+        width: 100%;
+        height: 100%;
+        box-shadow: inset -50px 50px 50px  rgba(0, 0, 0, 0),
+        inset 50px 50px 50px  rgba(0, 0, 0, 0);
+    }
+    .section-2-image-descreption{
+        padding: 0 10px;
+        position: absolute;
+        z-index: 2;
+        bottom: 0;
+        background:aliceblue;
+        width: 100%;
+    }
+    .section-2-image-descreption p{
+        margin: 0;
+        font-size: 19px;
+    }
+    .section-2-image-descreption p :nth-chil(2){
+        font-size: 14px;
+    }
+    .section-2-body {
+        display: flex;
+
+    }
